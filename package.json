@@ -1,0 +1,9 @@
+{
+  "name": "node-module-typescript-boilerplate",
+  "version": "0.0.0",
+  "description": "A boilerplate to build node modules",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
