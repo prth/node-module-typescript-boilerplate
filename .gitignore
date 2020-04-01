@@ -148,3 +148,6 @@ temp/
 .history
 
 # End of https://www.gitignore.io/api/node,macos,visualstudiocode
+
+# Ignore the build output folder of the module
+/build
