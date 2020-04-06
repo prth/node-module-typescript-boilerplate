@@ -1,4 +1,7 @@
 {
   "preset": "ts-jest",
-  "testEnvironment": "node"
+  "testEnvironment": "node",
+  "collectCoverageFrom": [
+    "src/**/*.{js,ts}"
+  ]
 }

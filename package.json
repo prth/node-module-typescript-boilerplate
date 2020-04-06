@@ -20,9 +20,15 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-tsdoc": "^0.2.4",
     "jest": "^25.2.4",
+    "metro-memory-fs": "^0.59.0",
     "prettier": "^2.0.2",
     "ts-jest": "^25.3.0",
     "ts-node": "^8.8.1",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cosmiconfig": "^6.0.0",
+    "debug": "^4.1.1",
+    "read-pkg": "^5.2.0"
   }
 }
