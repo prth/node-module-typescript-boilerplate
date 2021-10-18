@@ -69,7 +69,7 @@ describe('config', () => {
     expect(console.log).toBeCalledTimes(2);
   });
 
-  test('init() should initialize with invalid config', () => {
+  test('init() should not initialize with invalid config', () => {
     fs.writeFileSync(
       MOCK_RC_FILE_LOCATION,
       JSON.stringify({ invalid: 'config' })
@@ -81,7 +81,7 @@ describe('config', () => {
     }).toThrowError(new Error('Invalid config'));
   });
 
-  test('init() should initialize and throw not found error with missing file', () => {
+  test('init() should throw not found error with missing file', () => {
     fs.unlinkSync(MOCK_RC_FILE_LOCATION);
     const Config = require('./config').default;
 
